@@ -1,21 +1,11 @@
 # Politique de confidentialité — Buildr
 
-> ⚠️ **DOCUMENT À FAIRE RELIRE PAR UN AVOCAT AVANT MISE EN LIGNE.**
-> Cette version est un premier jet professionnel conforme au RGPD pour
-> un SaaS B2B du secteur du BTP. Elle est destinée à être :
-> 1. Adaptée aux **informations légales de l'éditeur** (placeholders `{{…}}` à remplir).
-> 2. **Relue par un avocat spécialisé** (en parallèle de la relecture des CGU).
-> 3. Publiée à l'adresse `getbuildr.fr/privacy` simultanément avec les CGU et les Mentions légales.
-> 4. Reliée à la **bannière de cookies** présente sur la vitrine.
->
-> **Version :** 1.0 — première rédaction.
-> **Date :** 14 mai 2026.
 
 ---
 
 ## 1. Introduction
 
-La présente Politique de confidentialité (ci-après la « **Politique** ») décrit la manière dont **Buildr**, éditée par **{{RAISON_SOCIALE}}** (ci-après « **Buildr** », « **nous** »), collecte, utilise et protège les données à caractère personnel (ci-après les « **Données Personnelles** ») des personnes qui visitent son site Internet ou utilisent ses services.
+La présente Politique de confidentialité (ci-après la « **Politique** ») décrit la manière dont **Buildr**, éditée par **PG TERRASSEMENT** (ci-après « **Buildr** », « **nous** »), collecte, utilise et protège les données à caractère personnel (ci-après les « **Données Personnelles** ») des personnes qui visitent son site Internet ou utilisent ses services.
 
 Cette Politique est rédigée conformément :
 
@@ -30,16 +20,16 @@ Elle peut être modifiée à tout moment pour tenir compte de l'évolution de la
 
 **Éditeur de la plateforme et responsable de traitement :**
 
-> **{{RAISON_SOCIALE}}**
-> {{FORME_JURIDIQUE}} au capital de {{CAPITAL}} €
-> Siège social : {{SIEGE_ADRESSE}}
-> RCS de {{VILLE_RCS}} sous le n° {{SIREN}}
-> Représentée par : {{REPRESENTANT_LEGAL}}
+> **PG TERRASSEMENT**
+> Société à responsabilité limitée (SARL) au capital de 500 €
+> Siège social : 34 B rue d'Alsace, 88000 Deyvillers
+> RCS d'Épinal sous le n° 902 611 094
+> Représentée par : Alexis PARISOT
 
 **Contact pour vos données :**
 
 > Par courriel : `privacy@getbuildr.fr`
-> Par courrier : {{SIEGE_ADRESSE}}
+> Par courrier : 34 B rue d'Alsace, 88000 Deyvillers
 
 Buildr n'a pas, à ce jour, l'obligation légale de désigner un Délégué à la Protection des Données (DPO). Toute demande relative au traitement de vos Données Personnelles est traitée par le référent confidentialité à l'adresse `privacy@getbuildr.fr`.
 
@@ -291,7 +281,7 @@ Vous disposez à tout moment des droits suivants sur vos Données Personnelles :
 Pour exercer un de ces droits, contactez-nous :
 
 - **Par courriel** : `privacy@getbuildr.fr` (méthode recommandée) ;
-- **Par courrier** : {{SIEGE_ADRESSE}}.
+- **Par courrier** : 34 B rue d'Alsace, 88000 Deyvillers.
 
 Afin de garantir la sécurité de votre demande, **une preuve d'identité pourra vous être demandée** (en cas de doute raisonnable sur votre identité). Nous nous engageons à répondre dans un délai d'**un mois**, prolongeable de deux mois pour les demandes complexes.
 
@@ -383,11 +373,10 @@ La version applicable est celle en vigueur au moment de votre utilisation des se
 Pour toute question relative à la présente Politique ou au traitement de vos Données Personnelles :
 
 - **Par courriel** : `privacy@getbuildr.fr`
-- **Par courrier** : {{SIEGE_ADRESSE}}
+- **Par courrier** : 34 B rue d'Alsace, 88000 Deyvillers
 
 ---
 
 **Fin de la Politique de confidentialité.**
 
-*Version 1.0 — Première rédaction — 14 mai 2026*
-*À faire relire par un avocat avant publication*
+*Version 1.0 — En vigueur au 12 août 2026*

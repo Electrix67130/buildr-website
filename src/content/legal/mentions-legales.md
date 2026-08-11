@@ -1,15 +1,5 @@
 # Mentions Légales — Buildr
 
-> ⚠️ **DOCUMENT À FAIRE RELIRE PAR UN AVOCAT AVANT MISE EN LIGNE.**
-> Cette version est un premier jet conforme à l'article 6 de la **LCEN**
-> (loi n° 2004-575 du 21 juin 2004) pour un éditeur de service de
-> communication au public en ligne. Elle est destinée à être :
-> 1. Adaptée aux **informations légales de l'éditeur** (placeholders `{{…}}` à remplir).
-> 2. **Relue par un avocat** (en parallèle des CGU et de la Politique de confidentialité).
-> 3. Publiée à l'adresse `getbuildr.fr/legal`, accessible depuis le footer de toutes les pages.
->
-> **Version :** 1.0 — première rédaction.
-> **Date :** 14 mai 2026.
 
 ---
 
@@ -17,15 +7,15 @@
 
 Le site `getbuildr.fr` et ses sous-domaines (`app.getbuildr.fr`, `api.getbuildr.fr`) ainsi que les applications mobiles iOS et Android publiées sous le nom « **Buildr** » sont édités par :
 
-> **{{RAISON_SOCIALE}}**
-> {{FORME_JURIDIQUE}} au capital social de **{{CAPITAL}} €**
-> Siège social : **{{SIEGE_ADRESSE}}**
-> Immatriculée au **Registre du Commerce et des Sociétés de {{VILLE_RCS}}** sous le numéro **{{SIREN}}**
-> Numéro de TVA intracommunautaire : **{{TVA_INTRACOM}}**
-> Téléphone : **{{TELEPHONE}}**
+> **PG TERRASSEMENT**
+> Société à responsabilité limitée (SARL) au capital social de **500 €**
+> Siège social : **34 B rue d'Alsace, 88000 Deyvillers**
+> Immatriculée au **Registre du Commerce et des Sociétés d'Épinal** sous le numéro **902 611 094**
+> Numéro de TVA intracommunautaire : **FR 15 902 611 094**
+> Téléphone : **06 24 13 72 22**
 > Courriel : `support@getbuildr.fr`
 
-**Directeur de la publication** : {{REPRESENTANT_LEGAL}}, en qualité de {{FONCTION_REPRESENTANT}}.
+**Directeur de la publication** : Alexis PARISOT, en qualité de gérant.
 
 ---
 
@@ -34,25 +24,21 @@ Le site `getbuildr.fr` et ses sous-domaines (`app.getbuildr.fr`, `api.getbuildr.
 Les serveurs hébergeant le site `getbuildr.fr`, le tableau de bord `app.getbuildr.fr`, l'API `api.getbuildr.fr` et les données associées sont opérés par :
 
 > **Scaleway SAS**
-> Société par actions simplifiée au capital de 214 410,50 €
-> Siège social : **8 rue de la Ville l'Évêque, 75008 Paris, France**
+> Société par actions simplifiée au capital de 142 050,00 €
+> Siège social : **8 rue de la Ville-l'Évêque, 75008 Paris, France**
 > Immatriculée au RCS de Paris sous le numéro **433 115 904**
-> Téléphone : **+33 1 84 13 00 00**
+> Numéro de TVA intracommunautaire : **FR 35 433 115 904**
 > Site web : <https://www.scaleway.com>
 
 L'hébergement des données est assuré dans des centres de données situés sur le territoire de l'**Union européenne**, principalement à Paris (France).
 
-Le réseau de distribution de contenu (CDN), la résolution DNS et la protection contre les attaques par déni de service sont assurés par :
-
-> **Cloudflare, Inc.**
-> Siège social : 101 Townsend Street, San Francisco, CA 94107, États-Unis
-> Site web : <https://www.cloudflare.com>
+L'enregistrement du nom de domaine et la résolution DNS sont également assurés par **Scaleway SAS**. Aucun réseau de distribution de contenu (CDN) tiers ni service de filtrage hors Union européenne n'est interposé devant la plateforme.
 
 ---
 
 ## 3. Nom de domaine
 
-Le nom de domaine **`getbuildr.fr`** et ses sous-domaines sont la propriété de **{{RAISON_SOCIALE}}**. Toute reproduction, imitation ou usage frauduleux du nom de domaine ou de marques associées est strictement interdite et susceptible de poursuites.
+Le nom de domaine **`getbuildr.fr`** et ses sous-domaines sont exploités par **PG TERRASSEMENT** dans le cadre de l'édition de la plateforme Buildr. Toute reproduction, imitation ou usage frauduleux du nom de domaine ou de marques associées est strictement interdite et susceptible de poursuites.
 
 ---
 
@@ -69,9 +55,9 @@ Les éditeurs des magasins d'applications appliquent leurs propres conditions g�
 
 ## 5. Propriété intellectuelle
 
-L'ensemble du contenu du site `getbuildr.fr`, du tableau de bord et des applications mobiles — notamment, sans s'y limiter : marque « Buildr », logo, charte graphique, textes, illustrations, photographies, vidéos, interfaces, codes sources, bases de données et structure générale — est la **propriété exclusive de {{RAISON_SOCIALE}}** ou fait l'objet d'une licence à son profit.
+L'ensemble du contenu du site `getbuildr.fr`, du tableau de bord et des applications mobiles — notamment, sans s'y limiter : marque « Buildr », logo, charte graphique, textes, illustrations, photographies, vidéos, interfaces, codes sources, bases de données et structure générale — est la **propriété exclusive de PG TERRASSEMENT** ou fait l'objet d'une licence à son profit.
 
-Toute reproduction, représentation, modification, publication, transmission ou exploitation, totale ou partielle, du contenu du site, sous quelque forme que ce soit, est interdite sans autorisation préalable, expresse et écrite de **{{RAISON_SOCIALE}}**, sous peine de poursuites au titre de la contrefaçon (articles L. 335-2 et suivants du Code de la propriété intellectuelle).
+Toute reproduction, représentation, modification, publication, transmission ou exploitation, totale ou partielle, du contenu du site, sous quelque forme que ce soit, est interdite sans autorisation préalable, expresse et écrite de **PG TERRASSEMENT**, sous peine de poursuites au titre de la contrefaçon (articles L. 335-2 et suivants du Code de la propriété intellectuelle).
 
 Les conditions d'usage de la plateforme sont détaillées dans les **Conditions Générales d'Utilisation** accessibles à l'adresse <https://getbuildr.fr/cgu>.
 
@@ -94,7 +80,7 @@ Les traitements de données à caractère personnel mis en œuvre par Buildr son
 Pour toute question relative à vos données personnelles ou pour exercer vos droits (accès, rectification, effacement, opposition, limitation, portabilité), vous pouvez nous contacter :
 
 - par courriel : `privacy@getbuildr.fr` ;
-- par courrier postal : **{{SIEGE_ADRESSE}}**, à l'attention du « Référent Confidentialité ».
+- par courrier postal : **34 B rue d'Alsace, 88000 Deyvillers**, à l'attention du « Référent Confidentialité ».
 
 Vous disposez également du droit d'introduire une réclamation auprès de la **Commission Nationale de l'Informatique et des Libertés (CNIL)** : <https://www.cnil.fr>.
 
@@ -108,9 +94,9 @@ Le site `getbuildr.fr` utilise des cookies dans les conditions précisées dans 
 
 ## 9. Liens hypertextes
 
-Le site peut contenir des liens hypertextes vers des sites tiers. **{{RAISON_SOCIALE}}** n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu, leur disponibilité, leur sécurité ou leurs propres traitements de données.
+Le site peut contenir des liens hypertextes vers des sites tiers. **PG TERRASSEMENT** n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu, leur disponibilité, leur sécurité ou leurs propres traitements de données.
 
-La création de liens hypertextes pointant vers le site `getbuildr.fr` est libre, dès lors qu'elle ne porte pas atteinte aux intérêts ou à l'image de **{{RAISON_SOCIALE}}**. Toute association suggérant un partenariat, une approbation ou un sponsoring non avérés est interdite.
+La création de liens hypertextes pointant vers le site `getbuildr.fr` est libre, dès lors qu'elle ne porte pas atteinte aux intérêts ou à l'image de **PG TERRASSEMENT**. Toute association suggérant un partenariat, une approbation ou un sponsoring non avérés est interdite.
 
 ---
 
@@ -128,7 +114,7 @@ Conformément à l'article 6.I.5 de la **LCEN**, toute personne peut signaler un
 
 ## 11. Crédits
 
-- Conception et développement : **{{RAISON_SOCIALE}}**
+- Conception et développement : **PG TERRASSEMENT**
 - Icônes : [Lucide](https://lucide.dev) (licence ISC)
 - Polices de caractères : sous licence open source
 
@@ -146,11 +132,10 @@ Pour toute question relative au site, aux applications ou à la présente page :
 
 - **Support technique et commercial** : `support@getbuildr.fr`
 - **Référent Confidentialité (RGPD)** : `privacy@getbuildr.fr`
-- **Adresse postale** : {{SIEGE_ADRESSE}}
+- **Adresse postale** : 34 B rue d'Alsace, 88000 Deyvillers
 
 ---
 
 **Fin des Mentions Légales.**
 
-*Version 1.0 — Première rédaction — 14 mai 2026*
-*À faire relire par un avocat avant publication*
+*Version 1.0 — En vigueur au 12 août 2026*

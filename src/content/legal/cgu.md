@@ -1,20 +1,11 @@
 # Conditions Générales d'Utilisation — Buildr
 
-> ⚠️ **DOCUMENT À FAIRE RELIRE PAR UN AVOCAT AVANT MISE EN LIGNE.**
-> Cette version est un premier jet professionnel pensé pour un SaaS B2B
-> du secteur du BTP en France. Elle doit être :
-> 1. Adaptée aux **informations légales de l'éditeur** (placeholders `{{…}}` à remplir).
-> 2. **Relue par un avocat spécialisé SaaS** (Captain Contrat, LegalStart Premium, ou cabinet local) — comptez 500 € à 1 500 € pour validation.
-> 3. Publiée à l'adresse `getbuildr.fr/cgu` simultanément avec la `Politique de confidentialité` et les `Mentions légales`.
->
-> **Version :** 1.0 — première rédaction.
-> **Date :** 14 mai 2026.
 
 ---
 
 ## Préambule
 
-Les présentes Conditions Générales d'Utilisation (ci-après les « **CGU** ») régissent l'accès et l'usage de la plateforme Buildr, éditée par **{{RAISON_SOCIALE}}** (ci-après « **Buildr** »), société {{FORME_JURIDIQUE}} au capital de {{CAPITAL}} €, immatriculée au Registre du Commerce et des Sociétés de {{VILLE_RCS}} sous le numéro {{SIREN}}, dont le siège social est situé {{SIEGE_ADRESSE}}.
+Les présentes Conditions Générales d'Utilisation (ci-après les « **CGU** ») régissent l'accès et l'usage de la plateforme Buildr, éditée par **PG TERRASSEMENT** (ci-après « **Buildr** »), société à responsabilité limitée (SARL) au capital de 500 €, immatriculée au Registre du Commerce et des Sociétés d'Épinal sous le numéro 902 611 094, dont le siège social est situé 34 B rue d'Alsace, 88000 Deyvillers.
 
 Buildr est une plateforme logicielle de gestion de chantiers, projets et interventions sur site à destination des professionnels — principalement du secteur du bâtiment et des travaux publics, mais également de tout autre métier reposant sur la coordination d'équipes et de tiers autour d'un projet ou d'un site (événementiel, installation industrielle, audiovisuel, paysagisme, maintenance technique, énergies renouvelables, etc.) — accessible :
 
@@ -296,7 +287,7 @@ Cette licence prend fin à la suppression du Contenu Utilisateur par l'Utilisate
 
 ### 12.1 Hébergement
 
-Les données des Utilisateurs sont hébergées dans des centres de données situés sur le territoire de l'Union européenne, opérés par {{HEBERGEUR}} (le cas échéant : Scaleway, Paris, France).
+Les données des Utilisateurs sont hébergées dans des centres de données situés sur le territoire de l'Union européenne, opérés par Scaleway SAS (le cas échéant : Scaleway, Paris, France).
 
 ### 12.2 Sauvegarde
 
@@ -480,7 +471,7 @@ Pendant la durée du Contrat et pendant les douze (12) mois suivant sa fin, l'Ut
 
 Les présentes CGU sont régies par le **droit français**.
 
-**Tout différend relatif à la validité, l'interprétation, l'exécution ou la résiliation des présentes CGU, à défaut de résolution amiable dans un délai de trente (30) jours à compter de la première notification écrite par l'une des Parties, relèvera de la compétence exclusive des tribunaux du ressort de la Cour d'appel de {{COUR_APPEL}}**, y compris en cas de référé, de procédure conservatoire, de pluralité de défendeurs ou d'appel en garantie.
+**Tout différend relatif à la validité, l'interprétation, l'exécution ou la résiliation des présentes CGU, à défaut de résolution amiable dans un délai de trente (30) jours à compter de la première notification écrite par l'une des Parties, relèvera de la compétence exclusive des tribunaux du ressort de la Cour d'appel de Nancy**, y compris en cas de référé, de procédure conservatoire, de pluralité de défendeurs ou d'appel en garantie.
 
 ---
 
@@ -568,5 +559,4 @@ Le Responsable de Traitement s'engage à :
 
 **Fin des CGU.**
 
-*Version 1.0 — Première rédaction — 14 mai 2026*
-*À faire relire par un avocat avant publication*
+*Version 1.0 — En vigueur au 12 août 2026*
