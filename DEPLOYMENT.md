@@ -1,115 +1,115 @@
 # Déploiement — Buildr Website
 
-Site vitrine `getbuildr.fr` — Next.js 16 + Tailwind v4, hébergé sur **Vercel**.
+Site vitrine `getbuildr.fr` — Next.js 16 + Tailwind v4.
+
+**Hébergement retenu : le VPS Scaleway**, aux côtés de l'API, de la base et du
+dashboard (cf. `buildr-api/docs/HOSTING.md`). Le site tourne en conteneur Docker
+derrière Caddy, qui gère HTTPS via Let's Encrypt.
+
+> Une version antérieure de ce document décrivait un déploiement Vercel. Le choix
+> a été tranché en faveur du VPS : tout est au même endroit, aucun coût
+> supplémentaire, et aucune donnée ne transite par un hébergeur hors UE.
+> Le `vercel.json` est conservé pour garder l'option ouverte.
+
+---
+
+## Architecture
+
+```
+getbuildr.fr      → Caddy (hôte) → 127.0.0.1:3001 → conteneur buildr-website
+www.getbuildr.fr  → redirection permanente vers getbuildr.fr
+app.getbuildr.fr  → Caddy (hôte) → 127.0.0.1:3002 → conteneur buildr-dashboard
+api.getbuildr.fr  → Caddy (hôte) → 127.0.0.1:3000 → conteneur buildr-api
+```
+
+Le `docker-compose.prod.yml`, le `Caddyfile` et les scripts de déploiement
+vivent dans le repo **buildr-api**. Sur le VPS :
+
+```
+/home/buildr/api        <- buildr-api
+/home/buildr/website    <- ce repo
+/home/buildr/dashboard  <- buildr-dashboard
+```
 
 ---
 
 ## Première mise en ligne
 
-### 1. Push GitHub
-```bash
-cd buildr-website
-git add .
-git commit -m "feat: pages légales + adaptation beta"
-git push origin master
-```
+### 1. DNS (chez Scaleway — le domaine y est enregistré)
 
-### 2. Importer le repo sur Vercel
-1. Aller sur https://vercel.com/new
-2. Se connecter avec GitHub
-3. Importer le repo `buildr-website`
-4. Vercel détecte automatiquement Next.js, aucun réglage à changer
-5. **Cliquer "Deploy"** — premier build ~1-2 min
-6. URL de preview générée : `buildr-website-xxx.vercel.app`
-
-### 3. Vérifier la preview
-Avant de brancher le domaine, vérifier sur l'URL Vercel :
-- [ ] Accueil chargé sans erreur
-- [ ] `/pricing` affiche la bannière "Beta gratuite"
-- [ ] `/cgu`, `/privacy`, `/mentions-legales` rendent bien le markdown
-- [ ] `/support` affiche la FAQ et l'email de contact
-- [ ] Le footer contient les liens légaux
-- [ ] Le switcher de langue fonctionne
-
-### 4. Brancher le domaine `getbuildr.fr`
-Dans Vercel : **Project → Settings → Domains → Add Domain** → `getbuildr.fr` et `www.getbuildr.fr`.
-
-Vercel affiche les enregistrements DNS à créer chez ton registrar (OVH, Gandi, Cloudflare…). Les deux options :
-
-#### Option A — Vercel comme registrar DNS (recommandé si simple)
-- Configurer les nameservers chez ton registrar pour pointer sur ceux de Vercel :
-  - `ns1.vercel-dns.com`
-  - `ns2.vercel-dns.com`
-- Vercel gère tout : DNS + HTTPS + redirections www → apex
-
-#### Option B — Garder ton DNS chez ton registrar (si tu veux Cloudflare devant)
-Chez le registrar, ajouter :
+Console Scaleway → **Domains & DNS** → `getbuildr.fr` → zone DNS. Ajouter :
 
 | Type | Nom | Valeur | TTL |
 |---|---|---|---|
-| `A` | `@` | `76.76.21.21` | Auto |
-| `CNAME` | `www` | `cname.vercel-dns.com` | Auto |
+| `A` | `@` | `51.15.214.102` | 3600 |
+| `A` | `www` | `51.15.214.102` | 3600 |
+| `A` | `app` | `51.15.214.102` | 3600 |
 
-Pour les autres sous-domaines à venir :
+`api` pointe déjà vers cette IP. **Pas de proxy Cloudflare** devant : Caddy a
+besoin d'un accès direct en HTTP/01 pour obtenir les certificats.
 
-| Sous-domaine | Pointe vers | Notes |
-|---|---|---|
-| `app.getbuildr.fr` | Dashboard (Vercel) | À configurer plus tard |
-| `api.getbuildr.fr` | VPS Scaleway | `A` record vers l'IP du VPS |
-| `mail.getbuildr.fr` | Email provider | MX records selon ton provider |
+Vérifier la propagation : `dig +short getbuildr.fr` doit renvoyer l'IP du VPS.
 
-### 5. Attendre la propagation DNS
-- 5 min à 48h (généralement <1h)
-- Vercel certificate HTTPS (Let's Encrypt) auto-issued une fois le DNS résolu
-- Vérifier avec : `dig getbuildr.fr` ou https://dnschecker.org
+### 2. Reverse proxy
 
-### 6. Vérifier en prod
-- [ ] `https://getbuildr.fr` → 200 OK
-- [ ] `https://www.getbuildr.fr` → redirige vers apex (ou inverse, au choix)
-- [ ] HTTPS valide (cadenas vert)
-- [ ] `https://getbuildr.fr/privacy` accessible → **URL à donner à Apple/Google**
+Depuis le repo buildr-api, sur le VPS :
+
+```bash
+sudo cp /home/buildr/api/Caddyfile /etc/caddy/Caddyfile
+sudo systemctl reload caddy
+```
+
+Caddy obtient les certificats automatiquement dès que le DNS résout.
+
+### 3. Déploiement
+
+```bash
+/home/buildr/api/scripts/deploy-web.sh website   # vitrine seule
+/home/buildr/api/scripts/deploy-web.sh           # vitrine + dashboard
+```
+
+Le script clone le repo au premier passage, puis build et démarre le conteneur.
+
+### 4. Vérifier
+
+- [ ] `https://getbuildr.fr` → 200, HTTPS valide
+- [ ] `https://www.getbuildr.fr` → redirige vers l'apex
+- [ ] `/pricing` affiche la bannière « Beta gratuite »
+- [ ] `/cgu`, `/privacy`, `/mentions-legales` rendent bien le contenu
+- [ ] `/support` affiche la FAQ et l'email de contact
+- [ ] Le sélecteur de langue fonctionne
 
 ---
 
 ## Déploiements suivants
 
-Push sur `master` = déploiement auto en production. Les PRs créent des previews automatiques.
-
 ```bash
-git push origin master  # → déploie en prod
-git push origin feature/foo  # → preview URL générée
+git push origin main
+ssh buildr@51.15.214.102 '/home/buildr/api/scripts/deploy-web.sh website'
 ```
 
 ---
 
-## Variables d'environnement (à configurer dans Vercel Project Settings)
+## Variables d'environnement
 
-Pour l'instant aucune variable n'est requise — toutes les pages sont statiques.
-
-À ajouter quand le formulaire de contact sera connecté :
-- `CONTACT_FORM_WEBHOOK` (Formspree, Resend, ou route API custom)
+Aucune n'est requise : toutes les pages sont statiques. À ajouter quand le
+formulaire de contact sera connecté : `CONTACT_FORM_WEBHOOK`.
 
 ---
 
-## Domaine — où l'acheter ?
+## Avant de soumettre les apps mobiles
 
-Si `getbuildr.fr` n'est pas encore acheté :
-- **OVH** : ~7€/an .fr, interface en français
-- **Gandi** : ~12€/an, panneau DNS clair
-- **Cloudflare Registrar** : prix coûtant (~10€/an), nécessite le DNS Cloudflare
+`https://getbuildr.fr/privacy` doit être accessible publiquement — c'est l'URL à
+renseigner dans App Store Connect et dans la Play Console.
 
-Pour la simplicité au démarrage : **OVH**. Pour la performance (DNS + CDN + WAF) : **Cloudflare**.
+Les mentions légales contiennent encore des variables à remplacer dans
+`src/content/legal/mentions-legales.md` avant la soumission :
 
----
+`{{RAISON_SOCIALE}}`, `{{FORME_JURIDIQUE}}`, `{{CAPITAL}}`, `{{SIEGE_ADRESSE}}`,
+`{{SIREN}}`, `{{VILLE_RCS}}`, `{{TVA_INTRACOM}}`, `{{TELEPHONE}}`,
+`{{REPRESENTANT_LEGAL}}`, `{{FONCTION_REPRESENTANT}}`
 
-## Côté légal après mise en ligne
+Et dans `src/content/legal/cgu.md` : `{{HEBERGEUR}}` (Scaleway SAS, BP 438,
+75366 Paris Cedex 08) et `{{COUR_APPEL}}`.
 
-Une fois `getbuildr.fr/privacy` accessible publiquement, tu peux :
-1. Soumettre l'app iOS à l'App Store en utilisant cette URL dans App Store Connect
-2. Soumettre l'app Android en utilisant cette URL dans Play Console
-3. Mettre à jour `src/content/legal/mentions-legales.md` avec les vraies valeurs :
-   - `{{RAISON_SOCIALE}}` → ton nom ou ta société
-   - `{{SIREN}}` → SIRET (si auto-entrepreneur ou société)
-   - `{{SIEGE_ADRESSE}}` → adresse de domiciliation
-   - etc.
-4. Push pour redéployer.
+Régénérer ensuite le HTML avec `node scripts/build-legal.mjs`, puis redéployer.
