@@ -1,0 +1,24 @@
+networks:
+  buildr_network:
+    driver: bridge
+
+services:
+  buildr-website:
+    container_name: buildr-website
+    build:
+      context: .
+      target: development
+    ports:
+      - "${PORT:-3003}:3000"
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
+    stdin_open: true
+    tty: true
+    networks:
+      - buildr_network

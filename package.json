@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:legal": "node scripts/build-legal.mjs"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "lucide-react": "^1.14.0",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
@@ -20,6 +23,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "marked": "^18.0.4",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
