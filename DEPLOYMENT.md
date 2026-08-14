@@ -83,10 +83,26 @@ Le script clone le repo au premier passage, puis build et démarre le conteneur.
 
 ## Déploiements suivants
 
+Automatiques : un push sur `main` déclenche `.github/workflows/deploy.yml`, qui
+vérifie le typecheck et le build avant de déployer. Si le build échoue, rien ne
+part en ligne.
+
 ```bash
 git push origin main
+```
+
+Le déploiement peut aussi être relancé à la main depuis l'onglet **Actions** du
+dépôt (*Run workflow*), sans nouveau commit.
+
+En cas de besoin, la commande directe reste disponible :
+
+```bash
 ssh buildr@51.15.214.102 '/home/buildr/api/scripts/deploy-web.sh website'
 ```
+
+Le job de déploiement ne s'exécute que si la variable de dépôt
+`DEPLOY_ENABLED` vaut `true` — c'est l'interrupteur qui permet de désactiver la
+mise en ligne automatique sans toucher au workflow.
 
 ---
 
