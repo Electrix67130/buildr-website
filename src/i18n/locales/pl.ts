@@ -117,6 +117,15 @@ const pl: Dict = {
   "enterprise.feature.integrations": "Integracje na zamówienie",
   "enterprise.feature.hosting": "Dedykowany lub on-premise hosting",
   "enterprise.cta": "Skontaktuj się z nami",
+
+  // Beta et footer
+  "footer.cgu": "Regulamin",
+  "footer.support": "Wsparcie",
+  "pricing.beta.badge": "Trwa otwarta beta",
+  "pricing.beta.title": "Bezpłatnie do końca 2026",
+  "pricing.beta.desc": "Wszystkie funkcje, bez karty płatniczej. Faza beta kończy się dla wszystkich użytkowników w tym samym dniu. Powiadomimy Cię mailem co najmniej 30 dni przed wprowadzeniem cennika.",
+  "pricing.beta.note": "Uwaga: to nie jest 6-miesięczny bezpłatny okres próbny na konto. To faza beta produktu jest bezpłatna dla wszystkich, do wspólnej daty.",
+  "pricing.future.label": "Cena po becie",
 };
 
 export default pl;

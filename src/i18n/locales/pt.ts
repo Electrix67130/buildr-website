@@ -117,6 +117,15 @@ const pt: Dict = {
   "enterprise.feature.integrations": "Integrações à medida",
   "enterprise.feature.hosting": "Alojamento dedicado ou on-premise",
   "enterprise.cta": "Contacte-nos",
+
+  // Beta et footer
+  "footer.cgu": "Termos de utilização",
+  "footer.support": "Suporte",
+  "pricing.beta.badge": "Beta pública a decorrer",
+  "pricing.beta.title": "Gratuito até ao final de 2026",
+  "pricing.beta.desc": "Todas as funcionalidades, sem cartão bancário. A fase beta termina para todos os utilizadores na mesma data. Será avisado por email pelo menos 30 dias antes da entrada em vigor dos preços.",
+  "pricing.beta.note": "Nota: não é um período experimental de 6 meses por conta. É a fase beta do produto que é gratuita para todos, até uma data comum.",
+  "pricing.future.label": "Preço após a beta",
 };
 
 export default pt;

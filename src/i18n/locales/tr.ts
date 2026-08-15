@@ -117,6 +117,15 @@ const tr: Dict = {
   "enterprise.feature.integrations": "Özel entegrasyonlar",
   "enterprise.feature.hosting": "Özel veya yerinde hosting",
   "enterprise.cta": "Bize ulaşın",
+
+  // Beta et footer
+  "footer.cgu": "Kullanım koşulları",
+  "footer.support": "Destek",
+  "pricing.beta.badge": "Herkese açık beta sürüyor",
+  "pricing.beta.title": "2026 sonuna kadar ücretsiz",
+  "pricing.beta.desc": "Tüm özellikler, kredi kartı gerekmez. Beta aşaması tüm kullanıcılar için aynı tarihte sona erer. Fiyatlandırma başlamadan en az 30 gün önce e-posta ile bilgilendirileceksiniz.",
+  "pricing.beta.note": "Not: hesap başına 6 aylık ücretsiz deneme değildir. Ürünün beta aşaması ortak bir tarihe kadar herkes için ücretsizdir.",
+  "pricing.future.label": "Beta sonrası fiyat",
 };
 
 export default tr;
