@@ -120,6 +120,7 @@ const tr: Dict = {
 
   // Beta et footer
   "footer.cgu": "Kullanım koşulları",
+  "footer.cgv": "Satış koşulları",
   "footer.support": "Destek",
   "pricing.beta.badge": "Herkese açık beta sürüyor",
   "pricing.beta.title": "2026 sonuna kadar ücretsiz",

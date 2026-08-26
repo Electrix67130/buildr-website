@@ -119,6 +119,7 @@ const de: Dict = {
 
   // Beta et footer
   "footer.cgu": "AGB",
+  "footer.cgv": "Verkaufsbedingungen",
   "footer.support": "Support",
   "pricing.beta.badge": "Öffentliche Beta läuft",
   "pricing.beta.title": "Kostenlos bis Ende 2026",

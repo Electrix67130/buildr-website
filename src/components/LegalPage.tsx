@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 type LegalPageProps = {
-  slug: "cgu" | "privacy" | "mentions-legales";
+  slug: "cgu" | "cgv" | "privacy" | "mentions-legales";
   title: string;
 };
 

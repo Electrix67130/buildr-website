@@ -117,6 +117,7 @@ const fr: Dict = {
   "footer.contact": "Contact",
   "footer.support": "Support",
   "footer.cgu": "CGU",
+  "footer.cgv": "CGV",
   "footer.legal": "Mentions légales",
   "footer.privacy": "Confidentialité",
   "footer.copyright": "© {year} Buildr. Tous droits réservés.",
