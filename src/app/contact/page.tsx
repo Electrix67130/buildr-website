@@ -4,6 +4,7 @@ import { Mail, MessageCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useI18n } from "@/contexts/I18nContext";
+import { SIGNUP_URL } from "@/lib/links";
 
 export default function ContactPage() {
   const { t } = useI18n();
@@ -39,7 +40,7 @@ export default function ContactPage() {
             </a>
 
             <a
-              href="http://localhost:3002/signup"
+              href={SIGNUP_URL}
               className="group flex flex-col items-start gap-4 rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:border-orange-300 hover:shadow-lg hover:shadow-orange-100/50"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-100 text-orange-600 transition-transform group-hover:scale-110">

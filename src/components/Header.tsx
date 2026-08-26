@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useI18n } from "@/contexts/I18nContext";
 import LanguagePicker from "./LanguagePicker";
+import { LOGIN_URL, SIGNUP_URL } from "@/lib/links";
 
 const NAV = [
   { href: "/features", key: "nav.features" },
@@ -42,13 +43,13 @@ export default function Header() {
         <div className="hidden items-center gap-3 md:flex">
           <LanguagePicker />
           <a
-            href="http://localhost:3002/login"
+            href={LOGIN_URL}
             className="text-base font-semibold text-zinc-700 hover:text-zinc-900"
           >
             {t("nav.signIn")}
           </a>
           <a
-            href="http://localhost:3002/signup"
+            href={SIGNUP_URL}
             className="rounded-full bg-zinc-900 px-5 py-2.5 text-base font-semibold text-white transition-colors hover:bg-zinc-700"
           >
             {t("nav.start")}
@@ -81,13 +82,13 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="http://localhost:3002/login"
+              href={LOGIN_URL}
               className="rounded-lg px-3 py-3 text-base font-semibold text-zinc-700 hover:bg-zinc-100"
             >
               {t("nav.signIn")}
             </a>
             <a
-              href="http://localhost:3002/signup"
+              href={SIGNUP_URL}
               className="mt-2 rounded-lg bg-zinc-900 px-3 py-3 text-center text-base font-semibold text-white"
             >
               {t("nav.start")}

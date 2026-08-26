@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useI18n } from "@/contexts/I18nContext";
+import { SIGNUP_URL } from "@/lib/links";
 
 export default function Footer() {
   const { t } = useI18n();
@@ -35,7 +36,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="http://localhost:3002/signup"
+                  href={SIGNUP_URL}
                   className="text-sm text-zinc-600 hover:text-zinc-900"
                 >
                   {t("footer.signup")}

@@ -2,6 +2,7 @@
 
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/contexts/I18nContext";
+import { SIGNUP_URL } from "@/lib/links";
 
 export default function Cta() {
   const { t } = useI18n();
@@ -19,7 +20,7 @@ export default function Cta() {
               {t("cta.email")}
             </a>
             <a
-              href="http://localhost:3002/signup"
+              href={SIGNUP_URL}
               className="inline-flex items-center gap-2 rounded-full border border-white/40 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-white/10"
             >
               {t("cta.signup")}
