@@ -136,6 +136,35 @@ const fr: Dict = {
   "enterprise.feature.integrations": "Intégrations sur mesure",
   "enterprise.feature.hosting": "Hébergement dédié ou on-premise",
   "enterprise.cta": "Nous contacter",
+
+  // Support
+  "support.kicker": "Support",
+  "support.title": "On est là pour vous aider",
+  "support.subtitle": "Une question, un bug, une suggestion ? Voici comment nous joindre.",
+  "support.emailLabel": "Email support",
+  "support.delayLabel": "Délai de réponse",
+  "support.delayValue": "Sous 24 à 48h ouvrées",
+  "support.faqTitle": "Questions fréquentes",
+  "support.faq.account.q": "Comment créer un compte Buildr ?",
+  "support.faq.account.a": "Téléchargez l'application Buildr sur l'App Store ou Google Play, puis suivez les étapes d'inscription depuis l'écran d'accueil. La création de compte est gratuite pendant la phase beta.",
+  "support.faq.password.q": "J'ai oublié mon mot de passe, que faire ?",
+  "support.faq.password.a": "Depuis l'écran de connexion, appuyez sur « Mot de passe oublié » et saisissez votre email. Vous recevrez un lien de réinitialisation valable 24h.",
+  "support.faq.invite.q": "Comment inviter mon équipe sur un chantier ?",
+  "support.faq.invite.a": "Dans l'application, ouvrez le chantier concerné, allez dans l'onglet « Membres » puis « Inviter ». Saisissez l'email de la personne et son rôle (admin, manager, employé, client ou gestionnaire réseau).",
+  "support.faq.security.q": "Mes photos sont-elles stockées en sécurité ?",
+  "support.faq.security.a": "Oui. Toutes les données (photos, documents, comptes) sont chiffrées en transit (HTTPS) et au repos. Le stockage est assuré sur des serveurs situés dans l'Union européenne.",
+  "support.faq.delete.q": "Comment supprimer mon compte ?",
+  "support.faq.delete.a": "Envoyez un email à support@getbuildr.fr depuis l'adresse associée à votre compte. La suppression est effective sous 30 jours, conformément au RGPD.",
+  "support.faq.pricing.q": "Buildr est-il payant ?",
+  "support.faq.pricing.a": "Buildr est actuellement en beta publique gratuite jusqu'à fin 2026, pour tous les utilisateurs sans exception. Ce n'est pas un essai de 6 mois par compte : c'est la phase beta du produit qui est gratuite pour tout le monde, jusqu'à une date commune. Vous serez informé par email au moins 30 jours avant la mise en place de la tarification.",
+
+  // Pages legales
+  "legal.cgu": "Conditions Générales d'Utilisation",
+  "legal.cgv": "Conditions Générales de Vente",
+  "legal.privacy": "Politique de confidentialité",
+  "legal.mentions": "Mentions légales",
+  "legal.frenchNotice": "Ce document fait foi en français.",
+  "picker.aria": "Choisir la langue",
 };
 
 export default fr;

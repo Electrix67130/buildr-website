@@ -127,6 +127,35 @@ const pl: Dict = {
   "pricing.beta.desc": "Wszystkie funkcje, bez karty płatniczej. Faza beta kończy się dla wszystkich użytkowników w tym samym dniu. Powiadomimy Cię mailem co najmniej 30 dni przed wprowadzeniem cennika.",
   "pricing.beta.note": "Uwaga: to nie jest 6-miesięczny bezpłatny okres próbny na konto. To faza beta produktu jest bezpłatna dla wszystkich, do wspólnej daty.",
   "pricing.future.label": "Cena po becie",
+
+  // Support
+  "support.kicker": "Wsparcie",
+  "support.title": "Jesteśmy tu, aby pomóc",
+  "support.subtitle": "Pytanie, błąd, sugestia? Oto jak się z nami skontaktować.",
+  "support.emailLabel": "E-mail wsparcia",
+  "support.delayLabel": "Czas odpowiedzi",
+  "support.delayValue": "W ciągu 24–48 godzin roboczych",
+  "support.faqTitle": "Najczęstsze pytania",
+  "support.faq.account.q": "Jak założyć konto Buildr?",
+  "support.faq.account.a": "Pobierz aplikację Buildr z App Store lub Google Play, a następnie wykonaj kroki rejestracji na ekranie startowym. Zakładanie konta jest bezpłatne w fazie beta.",
+  "support.faq.password.q": "Zapomniałem hasła, co zrobić?",
+  "support.faq.password.a": "Na ekranie logowania dotknij „Nie pamiętam hasła” i podaj swój e-mail. Otrzymasz link do resetu ważny 24 godziny.",
+  "support.faq.invite.q": "Jak zaprosić zespół na budowę?",
+  "support.faq.invite.a": "W aplikacji otwórz budowę, przejdź do zakładki „Członkowie”, a następnie „Zaproś”. Podaj e-mail osoby i jej rolę (admin, manager, pracownik, klient lub zarządca sieci).",
+  "support.faq.security.q": "Czy moje zdjęcia są bezpiecznie przechowywane?",
+  "support.faq.security.a": "Tak. Wszystkie dane (zdjęcia, dokumenty, konta) są szyfrowane podczas przesyłania (HTTPS) i w spoczynku. Przechowywanie odbywa się na serwerach w Unii Europejskiej.",
+  "support.faq.delete.q": "Jak usunąć moje konto?",
+  "support.faq.delete.a": "Wyślij e-mail na support@getbuildr.fr z adresu powiązanego z kontem. Usunięcie następuje w ciągu 30 dni, zgodnie z RODO.",
+  "support.faq.pricing.q": "Czy Buildr jest płatny?",
+  "support.faq.pricing.a": "Buildr jest obecnie w bezpłatnej publicznej wersji beta do końca 2026 roku, dla wszystkich użytkowników bez wyjątku. To nie jest 6-miesięczny okres próbny na konto: bezpłatna jest faza beta produktu, dla wszystkich, do jednej wspólnej daty. Poinformujemy Cię e-mailem co najmniej 30 dni przed wprowadzeniem opłat.",
+
+  // Pages legales
+  "legal.cgu": "Ogólne warunki korzystania",
+  "legal.cgv": "Ogólne warunki sprzedaży",
+  "legal.privacy": "Polityka prywatności",
+  "legal.mentions": "Nota prawna",
+  "legal.frenchNotice": "Wiążąca jest francuska wersja tego dokumentu.",
+  "picker.aria": "Wybierz język",
 };
 
 export default pl;

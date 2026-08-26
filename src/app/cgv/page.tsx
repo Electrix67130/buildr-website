@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function CgvPage() {
-  return <LegalPage slug="cgv" title="Conditions Générales de Vente" />;
+  return <LegalPage slug="cgv" titleKey="legal.cgv" />;
 }

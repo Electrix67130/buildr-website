@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPage() {
-  return <LegalPage slug="privacy" title="Politique de confidentialité" />;
+  return <LegalPage slug="privacy" titleKey="legal.privacy" />;
 }

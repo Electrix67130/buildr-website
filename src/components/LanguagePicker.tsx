@@ -5,7 +5,7 @@ import { Globe, Check } from "lucide-react";
 import { useI18n, LOCALES, Locale } from "@/contexts/I18nContext";
 
 export default function LanguagePicker() {
-  const { locale, setLocale } = useI18n();
+  const { locale, setLocale, t } = useI18n();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -24,7 +24,7 @@ export default function LanguagePicker() {
       <button
         onClick={() => setOpen((v) => !v)}
         className="flex items-center gap-2 rounded-full border border-zinc-300 bg-white px-4 py-2 text-sm font-medium text-zinc-700 transition-colors hover:border-zinc-400 hover:bg-zinc-50"
-        aria-label="Choisir la langue"
+        aria-label={t("picker.aria")}
       >
         <Globe size={16} />
         <span>{current.flag}</span>

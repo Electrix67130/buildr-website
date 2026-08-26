@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function CguPage() {
-  return <LegalPage slug="cgu" title="Conditions Générales d'Utilisation" />;
+  return <LegalPage slug="cgu" titleKey="legal.cgu" />;
 }

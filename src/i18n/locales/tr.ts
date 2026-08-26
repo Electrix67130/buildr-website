@@ -127,6 +127,35 @@ const tr: Dict = {
   "pricing.beta.desc": "Tüm özellikler, kredi kartı gerekmez. Beta aşaması tüm kullanıcılar için aynı tarihte sona erer. Fiyatlandırma başlamadan en az 30 gün önce e-posta ile bilgilendirileceksiniz.",
   "pricing.beta.note": "Not: hesap başına 6 aylık ücretsiz deneme değildir. Ürünün beta aşaması ortak bir tarihe kadar herkes için ücretsizdir.",
   "pricing.future.label": "Beta sonrası fiyat",
+
+  // Support
+  "support.kicker": "Destek",
+  "support.title": "Yardım için buradayız",
+  "support.subtitle": "Bir soru, bir hata, bir öneri mi? Bize şöyle ulaşabilirsiniz.",
+  "support.emailLabel": "Destek e-postası",
+  "support.delayLabel": "Yanıt süresi",
+  "support.delayValue": "24-48 iş saati içinde",
+  "support.faqTitle": "Sıkça sorulan sorular",
+  "support.faq.account.q": "Buildr hesabı nasıl oluşturulur?",
+  "support.faq.account.a": "Buildr uygulamasını App Store veya Google Play üzerinden indirin, ardından ana ekrandaki kayıt adımlarını izleyin. Beta aşamasında hesap oluşturmak ücretsizdir.",
+  "support.faq.password.q": "Şifremi unuttum, ne yapmalıyım?",
+  "support.faq.password.a": "Giriş ekranında “Şifremi unuttum” seçeneğine dokunun ve e-postanızı girin. 24 saat geçerli bir sıfırlama bağlantısı alırsınız.",
+  "support.faq.invite.q": "Ekibimi bir şantiyeye nasıl davet ederim?",
+  "support.faq.invite.a": "Uygulamada şantiyeyi açın, “Üyeler” sekmesine ve ardından “Davet et” seçeneğine gidin. Kişinin e-postasını ve rolünü girin (admin, yönetici, çalışan, müşteri veya şebeke sorumlusu).",
+  "support.faq.security.q": "Fotoğraflarım güvenli şekilde saklanıyor mu?",
+  "support.faq.security.a": "Evet. Tüm veriler (fotoğraflar, belgeler, hesaplar) aktarım sırasında (HTTPS) ve beklemede şifrelenir. Depolama, Avrupa Birliği içinde bulunan sunucularda yapılır.",
+  "support.faq.delete.q": "Hesabımı nasıl silerim?",
+  "support.faq.delete.a": "Hesabınıza bağlı adresten support@getbuildr.fr adresine e-posta gönderin. Silme işlemi, GDPR uyarınca 30 gün içinde geçerli olur.",
+  "support.faq.pricing.q": "Buildr ücretli mi?",
+  "support.faq.pricing.a": "Buildr şu anda 2026 sonuna kadar, istisnasız tüm kullanıcılar için ücretsiz genel beta aşamasındadır. Bu, hesap başına 6 aylık bir deneme değildir: ürünün beta aşaması ortak bir tarihe kadar herkes için ücretsizdir. Fiyatlandırma başlamadan en az 30 gün önce e-posta ile bilgilendirileceksiniz.",
+
+  // Pages legales
+  "legal.cgu": "Genel Kullanım Koşulları",
+  "legal.cgv": "Genel Satış Koşulları",
+  "legal.privacy": "Gizlilik politikası",
+  "legal.mentions": "Yasal bilgiler",
+  "legal.frenchNotice": "Bu belgenin Fransızca sürümü esas alınır.",
+  "picker.aria": "Dil seçin",
 };
 
 export default tr;

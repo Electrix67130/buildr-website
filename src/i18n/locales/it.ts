@@ -126,6 +126,35 @@ const it: Dict = {
   "pricing.beta.desc": "Tutte le funzionalità, senza carta di credito. La fase beta termina per tutti gli utenti alla stessa data. Sarai avvisato via email almeno 30 giorni prima dell'introduzione delle tariffe.",
   "pricing.beta.note": "Da notare: non è una prova gratuita di 6 mesi per account. È la fase beta del prodotto a essere gratuita per tutti, fino a una data comune.",
   "pricing.future.label": "Tariffa dopo la beta",
+
+  // Support
+  "support.kicker": "Assistenza",
+  "support.title": "Siamo qui per aiutarti",
+  "support.subtitle": "Una domanda, un bug, un suggerimento? Ecco come contattarci.",
+  "support.emailLabel": "Email di assistenza",
+  "support.delayLabel": "Tempo di risposta",
+  "support.delayValue": "Entro 24-48 ore lavorative",
+  "support.faqTitle": "Domande frequenti",
+  "support.faq.account.q": "Come creare un account Buildr?",
+  "support.faq.account.a": "Scarica l'app Buildr dall'App Store o da Google Play, poi segui i passaggi di registrazione dalla schermata iniziale. La creazione dell'account è gratuita durante la fase beta.",
+  "support.faq.password.q": "Ho dimenticato la password, cosa faccio?",
+  "support.faq.password.a": "Nella schermata di accesso, tocca «Password dimenticata» e inserisci la tua email. Riceverai un link di reimpostazione valido 24 ore.",
+  "support.faq.invite.q": "Come invito il mio team su un cantiere?",
+  "support.faq.invite.a": "Nell'app, apri il cantiere, vai alla scheda «Membri» e poi «Invita». Inserisci l'email della persona e il suo ruolo (admin, manager, dipendente, cliente o gestore di rete).",
+  "support.faq.security.q": "Le mie foto sono archiviate in modo sicuro?",
+  "support.faq.security.a": "Sì. Tutti i dati (foto, documenti, account) sono cifrati in transito (HTTPS) e a riposo. L'archiviazione avviene su server situati nell'Unione europea.",
+  "support.faq.delete.q": "Come elimino il mio account?",
+  "support.faq.delete.a": "Invia un'email a support@getbuildr.fr dall'indirizzo associato al tuo account. L'eliminazione è effettiva entro 30 giorni, in conformità al GDPR.",
+  "support.faq.pricing.q": "Buildr è a pagamento?",
+  "support.faq.pricing.a": "Buildr è attualmente in beta pubblica gratuita fino alla fine del 2026, per tutti gli utenti senza eccezioni. Non è una prova di 6 mesi per account: è la fase beta del prodotto a essere gratuita per tutti, fino a una data comune. Sarai avvisato per email almeno 30 giorni prima dell'introduzione delle tariffe.",
+
+  // Pages legales
+  "legal.cgu": "Condizioni Generali d'Uso",
+  "legal.cgv": "Condizioni Generali di Vendita",
+  "legal.privacy": "Informativa sulla privacy",
+  "legal.mentions": "Note legali",
+  "legal.frenchNotice": "Fa fede la versione francese di questo documento.",
+  "picker.aria": "Scegli la lingua",
 };
 
 export default it;

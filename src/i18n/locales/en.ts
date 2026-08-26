@@ -127,6 +127,35 @@ const en: Dict = {
   "enterprise.feature.integrations": "Custom integrations",
   "enterprise.feature.hosting": "Dedicated or on-premise hosting",
   "enterprise.cta": "Contact us",
+
+  // Support
+  "support.kicker": "Support",
+  "support.title": "We're here to help",
+  "support.subtitle": "A question, a bug, a suggestion? Here's how to reach us.",
+  "support.emailLabel": "Support email",
+  "support.delayLabel": "Response time",
+  "support.delayValue": "Within 24 to 48 business hours",
+  "support.faqTitle": "Frequently asked questions",
+  "support.faq.account.q": "How do I create a Buildr account?",
+  "support.faq.account.a": "Download the Buildr app from the App Store or Google Play, then follow the sign-up steps from the home screen. Creating an account is free during the beta phase.",
+  "support.faq.password.q": "I forgot my password, what should I do?",
+  "support.faq.password.a": "On the login screen, tap “Forgot password” and enter your email. You'll receive a reset link valid for 24 hours.",
+  "support.faq.invite.q": "How do I invite my team to a site?",
+  "support.faq.invite.a": "In the app, open the site, go to the “Members” tab, then “Invite”. Enter the person's email and their role (admin, manager, employee, client or network manager).",
+  "support.faq.security.q": "Are my photos stored securely?",
+  "support.faq.security.a": "Yes. All data (photos, documents, accounts) is encrypted in transit (HTTPS) and at rest. Storage is on servers located in the European Union.",
+  "support.faq.delete.q": "How do I delete my account?",
+  "support.faq.delete.a": "Email support@getbuildr.fr from the address linked to your account. Deletion takes effect within 30 days, in accordance with the GDPR.",
+  "support.faq.pricing.q": "Is Buildr paid?",
+  "support.faq.pricing.a": "Buildr is currently in a free public beta until the end of 2026, for every user without exception. This is not a 6-month trial per account: it is the product's beta phase that is free for everyone, until one shared date. You will be notified by email at least 30 days before pricing starts.",
+
+  // Pages legales
+  "legal.cgu": "Terms of Service",
+  "legal.cgv": "Terms of Sale",
+  "legal.privacy": "Privacy Policy",
+  "legal.mentions": "Legal notice",
+  "legal.frenchNotice": "This document is legally binding in French.",
+  "picker.aria": "Choose language",
 };
 
 export default en;

@@ -126,6 +126,35 @@ const de: Dict = {
   "pricing.beta.desc": "Alle Funktionen, ohne Kreditkarte. Die Beta-Phase endet für alle Nutzer am selben Datum. Sie werden mindestens 30 Tage vor Einführung der Preise per E-Mail benachrichtigt.",
   "pricing.beta.note": "Hinweis: Dies ist keine sechsmonatige Testphase pro Konto. Die Beta-Phase des Produkts ist für alle kostenlos, bis zu einem gemeinsamen Stichtag.",
   "pricing.future.label": "Preis nach der Beta",
+
+  // Support
+  "support.kicker": "Support",
+  "support.title": "Wir sind für Sie da",
+  "support.subtitle": "Eine Frage, ein Fehler, ein Vorschlag? So erreichen Sie uns.",
+  "support.emailLabel": "Support-E-Mail",
+  "support.delayLabel": "Antwortzeit",
+  "support.delayValue": "Innerhalb von 24 bis 48 Werkstunden",
+  "support.faqTitle": "Häufige Fragen",
+  "support.faq.account.q": "Wie erstelle ich ein Buildr-Konto?",
+  "support.faq.account.a": "Laden Sie die Buildr-App im App Store oder bei Google Play herunter und folgen Sie den Registrierungsschritten auf dem Startbildschirm. Die Kontoerstellung ist während der Beta-Phase kostenlos.",
+  "support.faq.password.q": "Ich habe mein Passwort vergessen, was nun?",
+  "support.faq.password.a": "Tippen Sie im Anmeldebildschirm auf „Passwort vergessen“ und geben Sie Ihre E-Mail-Adresse ein. Sie erhalten einen 24 Stunden gültigen Link zum Zurücksetzen.",
+  "support.faq.invite.q": "Wie lade ich mein Team zu einer Baustelle ein?",
+  "support.faq.invite.a": "Öffnen Sie in der App die Baustelle, gehen Sie zum Reiter „Mitglieder“ und dann auf „Einladen“. Geben Sie die E-Mail-Adresse der Person und ihre Rolle an (Admin, Manager, Mitarbeiter, Kunde oder Netzbetreiber).",
+  "support.faq.security.q": "Werden meine Fotos sicher gespeichert?",
+  "support.faq.security.a": "Ja. Alle Daten (Fotos, Dokumente, Konten) werden bei der Übertragung (HTTPS) und im Ruhezustand verschlüsselt. Die Speicherung erfolgt auf Servern in der Europäischen Union.",
+  "support.faq.delete.q": "Wie lösche ich mein Konto?",
+  "support.faq.delete.a": "Senden Sie eine E-Mail an support@getbuildr.fr von der mit Ihrem Konto verknüpften Adresse. Die Löschung erfolgt innerhalb von 30 Tagen gemäß DSGVO.",
+  "support.faq.pricing.q": "Ist Buildr kostenpflichtig?",
+  "support.faq.pricing.a": "Buildr befindet sich derzeit bis Ende 2026 in einer kostenlosen öffentlichen Beta, für alle Nutzer ohne Ausnahme. Es handelt sich nicht um eine sechsmonatige Testphase pro Konto: Die Beta-Phase des Produkts ist für alle kostenlos, bis zu einem gemeinsamen Stichtag. Sie werden mindestens 30 Tage vor Einführung der Preise per E-Mail informiert.",
+
+  // Pages legales
+  "legal.cgu": "Allgemeine Nutzungsbedingungen",
+  "legal.cgv": "Allgemeine Verkaufsbedingungen",
+  "legal.privacy": "Datenschutzerklärung",
+  "legal.mentions": "Impressum",
+  "legal.frenchNotice": "Maßgeblich ist die französische Fassung dieses Dokuments.",
+  "picker.aria": "Sprache wählen",
 };
 
 export default de;

@@ -126,6 +126,35 @@ const es: Dict = {
   "pricing.beta.desc": "Todas las funciones, sin tarjeta bancaria. La fase beta termina para todos los usuarios en la misma fecha. Se le avisará por correo al menos 30 días antes de aplicar las tarifas.",
   "pricing.beta.note": "Nota: no es una prueba gratuita de 6 meses por cuenta. Es la fase beta del producto la que es gratuita para todos, hasta una fecha común.",
   "pricing.future.label": "Tarifa después de la beta",
+
+  // Support
+  "support.kicker": "Soporte",
+  "support.title": "Estamos aquí para ayudarte",
+  "support.subtitle": "¿Una pregunta, un error, una sugerencia? Así puedes contactarnos.",
+  "support.emailLabel": "Email de soporte",
+  "support.delayLabel": "Tiempo de respuesta",
+  "support.delayValue": "En 24 a 48 horas hábiles",
+  "support.faqTitle": "Preguntas frecuentes",
+  "support.faq.account.q": "¿Cómo crear una cuenta Buildr?",
+  "support.faq.account.a": "Descarga la aplicación Buildr en App Store o Google Play y sigue los pasos de registro desde la pantalla de inicio. Crear una cuenta es gratis durante la fase beta.",
+  "support.faq.password.q": "He olvidado mi contraseña, ¿qué hago?",
+  "support.faq.password.a": "En la pantalla de inicio de sesión, pulsa «Contraseña olvidada» e introduce tu email. Recibirás un enlace de restablecimiento válido 24 horas.",
+  "support.faq.invite.q": "¿Cómo invitar a mi equipo a una obra?",
+  "support.faq.invite.a": "En la aplicación, abre la obra, ve a la pestaña «Miembros» y luego a «Invitar». Introduce el email de la persona y su rol (admin, manager, empleado, cliente o gestor de red).",
+  "support.faq.security.q": "¿Mis fotos se almacenan de forma segura?",
+  "support.faq.security.a": "Sí. Todos los datos (fotos, documentos, cuentas) se cifran en tránsito (HTTPS) y en reposo. El almacenamiento se realiza en servidores situados en la Unión Europea.",
+  "support.faq.delete.q": "¿Cómo elimino mi cuenta?",
+  "support.faq.delete.a": "Envía un email a support@getbuildr.fr desde la dirección asociada a tu cuenta. La eliminación es efectiva en un plazo de 30 días, conforme al RGPD.",
+  "support.faq.pricing.q": "¿Buildr es de pago?",
+  "support.faq.pricing.a": "Buildr está actualmente en beta pública gratuita hasta finales de 2026, para todos los usuarios sin excepción. No es una prueba de 6 meses por cuenta: es la fase beta del producto la que es gratuita para todo el mundo, hasta una fecha común. Te avisaremos por email al menos 30 días antes de aplicar la tarificación.",
+
+  // Pages legales
+  "legal.cgu": "Condiciones Generales de Uso",
+  "legal.cgv": "Condiciones Generales de Venta",
+  "legal.privacy": "Política de privacidad",
+  "legal.mentions": "Aviso legal",
+  "legal.frenchNotice": "Este documento es vinculante en su versión francesa.",
+  "picker.aria": "Elegir idioma",
 };
 
 export default es;

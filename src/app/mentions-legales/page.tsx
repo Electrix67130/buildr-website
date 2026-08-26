@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function MentionsLegalesPage() {
-  return <LegalPage slug="mentions-legales" title="Mentions légales" />;
+  return <LegalPage slug="mentions-legales" titleKey="legal.mentions" />;
 }
