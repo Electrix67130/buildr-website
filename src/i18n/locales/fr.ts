@@ -163,6 +163,7 @@ const fr: Dict = {
   "legal.cgv": "Conditions Générales de Vente",
   "legal.privacy": "Politique de confidentialité",
   "legal.mentions": "Mentions légales",
+  "legal.deleteAccount": "Supprimer votre compte",
   "legal.frenchNotice": "Ce document fait foi en français.",
   "picker.aria": "Choisir la langue",
 };

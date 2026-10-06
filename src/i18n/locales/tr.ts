@@ -154,6 +154,7 @@ const tr: Dict = {
   "legal.cgv": "Genel Satış Koşulları",
   "legal.privacy": "Gizlilik politikası",
   "legal.mentions": "Yasal bilgiler",
+  "legal.deleteAccount": "Hesabınızı silme",
   "legal.frenchNotice": "Bu belgenin Fransızca sürümü esas alınır.",
   "picker.aria": "Dil seçin",
 };

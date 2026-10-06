@@ -14,7 +14,7 @@ const DIR = path.join(__dirname, "..", "src", "content", "legal");
 
 marked.setOptions({ gfm: true, breaks: false });
 
-const slugs = ["cgu", "cgv", "privacy", "mentions-legales"];
+const slugs = ["cgu", "cgv", "privacy", "mentions-legales", "supprimer-compte"];
 
 for (const slug of slugs) {
   const md = await fs.readFile(path.join(DIR, `${slug}.md`), "utf8");

@@ -154,6 +154,7 @@ const en: Dict = {
   "legal.cgv": "Terms of Sale",
   "legal.privacy": "Privacy Policy",
   "legal.mentions": "Legal notice",
+  "legal.deleteAccount": "Delete your account",
   "legal.frenchNotice": "This document is legally binding in French.",
   "picker.aria": "Choose language",
 };

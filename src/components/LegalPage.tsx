@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import LegalHeading from "@/components/LegalHeading";
 
 type LegalPageProps = {
-  slug: "cgu" | "cgv" | "privacy" | "mentions-legales";
+  slug: "cgu" | "cgv" | "privacy" | "mentions-legales" | "supprimer-compte";
   /** Cle i18n du titre. Le corps du document, lui, reste en francais. */
   titleKey: string;
 };

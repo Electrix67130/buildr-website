@@ -153,6 +153,7 @@ const es: Dict = {
   "legal.cgv": "Condiciones Generales de Venta",
   "legal.privacy": "Política de privacidad",
   "legal.mentions": "Aviso legal",
+  "legal.deleteAccount": "Eliminar su cuenta",
   "legal.frenchNotice": "Este documento es vinculante en su versión francesa.",
   "picker.aria": "Elegir idioma",
 };
