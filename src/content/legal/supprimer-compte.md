@@ -6,7 +6,7 @@ Cette page explique comment supprimer votre compte **Buildr** (application mobil
 
 1. Ouvrez l'application Buildr et connectez-vous.
 2. Allez dans l'onglet **Profil**.
-3. Tout en bas de la page, appuyez sur **Supprimer mon compte**.
+3. Dans la section **Sécurité**, appuyez sur **Supprimer mon compte**.
 4. Saisissez votre mot de passe pour confirmer.
 
 La suppression est immédiate : vous êtes déconnecté de tous vos appareils et votre compte ne peut plus être utilisé.

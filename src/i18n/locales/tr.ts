@@ -145,7 +145,7 @@ const tr: Dict = {
   "support.faq.security.q": "Fotoğraflarım güvenli şekilde saklanıyor mu?",
   "support.faq.security.a": "Evet. Tüm veriler (fotoğraflar, belgeler, hesaplar) aktarım sırasında (HTTPS) ve beklemede şifrelenir. Depolama, Avrupa Birliği içinde bulunan sunucularda yapılır.",
   "support.faq.delete.q": "Hesabımı nasıl silerim?",
-  "support.faq.delete.a": "Hesabınıza bağlı adresten support@getbuildr.fr adresine e-posta gönderin. Silme işlemi, GDPR uyarınca 30 gün içinde geçerli olur.",
+  "support.faq.delete.a": "Uygulamada Profil sekmesini açın, Güvenlik bölümünde « Hesabımı sil » seçeneğine dokunun ve şifrenizle onaylayın. Silme işlemi hemen gerçekleşir. Uygulamaya artık erişiminiz yoksa, hesabınıza bağlı adresten privacy@getbuildr.fr adresine yazın: talebiniz GDPR uyarınca 30 gün içinde işleme alınır.",
   "support.faq.pricing.q": "Buildr ücretli mi?",
   "support.faq.pricing.a": "Buildr şu anda 2026 sonuna kadar, istisnasız tüm kullanıcılar için ücretsiz genel beta aşamasındadır. Bu, hesap başına 6 aylık bir deneme değildir: ürünün beta aşaması ortak bir tarihe kadar herkes için ücretsizdir. Fiyatlandırma başlamadan en az 30 gün önce e-posta ile bilgilendirileceksiniz.",
 

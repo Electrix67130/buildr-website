@@ -145,7 +145,7 @@ const pt: Dict = {
   "support.faq.security.q": "As minhas fotos são armazenadas em segurança?",
   "support.faq.security.a": "Sim. Todos os dados (fotos, documentos, contas) são cifrados em trânsito (HTTPS) e em repouso. O armazenamento é feito em servidores situados na União Europeia.",
   "support.faq.delete.q": "Como elimino a minha conta?",
-  "support.faq.delete.a": "Envie um email para support@getbuildr.fr a partir do endereço associado à sua conta. A eliminação é efetiva em 30 dias, em conformidade com o RGPD.",
+  "support.faq.delete.a": "Na aplicação, abra o separador Perfil e, na secção Segurança, toque em «Eliminar a minha conta» e confirme com a sua palavra-passe. A eliminação é imediata. Se já não tiver acesso à aplicação, escreva para privacy@getbuildr.fr a partir do endereço associado à sua conta: o pedido é tratado em 30 dias, em conformidade com o RGPD.",
   "support.faq.pricing.q": "O Buildr é pago?",
   "support.faq.pricing.a": "O Buildr está atualmente em beta pública gratuita até ao final de 2026, para todos os utilizadores sem exceção. Não é um teste de 6 meses por conta: é a fase beta do produto que é gratuita para todos, até uma data comum. Será avisado por email pelo menos 30 dias antes da entrada em vigor dos preços.",
 

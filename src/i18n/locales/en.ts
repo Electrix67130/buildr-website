@@ -145,7 +145,7 @@ const en: Dict = {
   "support.faq.security.q": "Are my photos stored securely?",
   "support.faq.security.a": "Yes. All data (photos, documents, accounts) is encrypted in transit (HTTPS) and at rest. Storage is on servers located in the European Union.",
   "support.faq.delete.q": "How do I delete my account?",
-  "support.faq.delete.a": "Email support@getbuildr.fr from the address linked to your account. Deletion takes effect within 30 days, in accordance with the GDPR.",
+  "support.faq.delete.a": "In the app, open the Profile tab, then in the Security section tap “Delete my account” and confirm with your password. Deletion is immediate. If you no longer have access to the app, email privacy@getbuildr.fr from the address linked to your account: the request is handled within 30 days, in accordance with the GDPR.",
   "support.faq.pricing.q": "Is Buildr paid?",
   "support.faq.pricing.a": "Buildr is currently in a free public beta until the end of 2026, for every user without exception. This is not a 6-month trial per account: it is the product's beta phase that is free for everyone, until one shared date. You will be notified by email at least 30 days before pricing starts.",
 
