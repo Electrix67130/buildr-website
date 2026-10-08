@@ -200,11 +200,24 @@ Buildr fait appel aux sous-traitants ultérieurs suivants. Tous sont soumis à d
 
 Cette liste peut évoluer ; toute modification substantielle est notifiée aux Utilisateurs avec un préavis raisonnable, leur permettant le cas échéant de s'y opposer.
 
-### 7.3 Autorités
+### 7.3 Services publics de recherche d'adresse
+
+Lorsque vous saisissez la ville ou l'adresse d'un chantier, l'application mobile et le dashboard web proposent des suggestions. Pour les obtenir, votre appareil interroge **directement** le service d'adresses du pays concerné, sans passer par les serveurs de Buildr. Ce service reçoit le **texte saisi** et, comme pour toute connexion à Internet, l'**adresse IP** de votre appareil. Aucune autre donnée (nom, adresse e-mail, contenu des chantiers) ne lui est transmise.
+
+| Service | Éditeur | Pays concerné | Localisation |
+|---|---|---|---|
+| **API Géo** et **Base Adresse Nationale** | État français (DINUM, IGN) | France | France |
+| **API de recherche swisstopo** | Office fédéral de topographie (Confédération suisse) | Suisse | Suisse |
+| **geoportail.lu** | Administration du cadastre et de la topographie (Grand-Duché de Luxembourg) | Luxembourg | Luxembourg |
+| **Photon** (données OpenStreetMap) | komoot GmbH | Belgique | Allemagne |
+
+Ces services sont édités par des administrations publiques ou par un tiers indépendant, qui traitent ces requêtes selon leurs propres conditions. Ils ne sont pas des sous-traitants de Buildr au sens de l'article 28 du RGPD. Les suggestions ne sont demandées que lorsque vous saisissez une ville ou une adresse ; vous pouvez aussi la saisir sans choisir de suggestion.
+
+### 7.4 Autorités
 
 Vos Données Personnelles peuvent être communiquées aux **autorités administratives et judiciaires françaises et européennes** lorsqu'elles en font la demande conformément à la réglementation en vigueur (par exemple, sur réquisition judiciaire).
 
-### 7.4 Cessionnaires éventuels
+### 7.5 Cessionnaires éventuels
 
 En cas de cession, fusion ou acquisition de Buildr, vos Données Personnelles pourront être transmises au cessionnaire, sous réserve qu'il s'engage à respecter la présente Politique. Vous en serez informé(e) par courriel et disposerez d'un droit d'opposition.
 
@@ -219,7 +232,8 @@ Les Données Personnelles sont principalement traitées et stockées **dans l'Un
 Certains transferts limités hors Union européenne peuvent toutefois survenir :
 
 - **Cloudflare** opère un réseau mondial ; les requêtes peuvent transiter par des points de présence situés hors UE, sans stockage durable hors UE des données applicatives ;
-- **Apple Push Notification Service** et **Firebase Cloud Messaging** sont des services états-uniens ; les notifications push transitent par les serveurs de ces prestataires.
+- **Apple Push Notification Service** et **Firebase Cloud Messaging** sont des services états-uniens ; les notifications push transitent par les serveurs de ces prestataires ;
+- la recherche d'une adresse **en Suisse** interroge le service fédéral suisse swisstopo (voir 7.3). La Suisse bénéficie d'une **décision d'adéquation** de la Commission européenne (décision 2000/518/CE), qui reconnaît un niveau de protection équivalent à celui de l'Union européenne.
 
 Ces transferts sont encadrés par les **clauses contractuelles types** adoptées par la Commission européenne (décision (UE) 2021/914) et, lorsque cela est applicable, par les certifications complémentaires (par exemple le **Data Privacy Framework** UE-États-Unis).
 
@@ -379,4 +393,4 @@ Pour toute question relative à la présente Politique ou au traitement de vos D
 
 **Fin de la Politique de confidentialité.**
 
-*Version 1.0 — En vigueur au 12 août 2026*
+*Version 1.1 — En vigueur au 8 octobre 2026*

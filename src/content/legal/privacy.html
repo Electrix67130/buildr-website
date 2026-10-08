@@ -193,9 +193,46 @@ Par courrier : 34 B rue d&#39;Alsace, 88000 Deyvillers</p>
 </tr>
 </tbody></table>
 <p>Cette liste peut évoluer ; toute modification substantielle est notifiée aux Utilisateurs avec un préavis raisonnable, leur permettant le cas échéant de s&#39;y opposer.</p>
-<h3>7.3 Autorités</h3>
+<h3>7.3 Services publics de recherche d&#39;adresse</h3>
+<p>Lorsque vous saisissez la ville ou l&#39;adresse d&#39;un chantier, l&#39;application mobile et le dashboard web proposent des suggestions. Pour les obtenir, votre appareil interroge <strong>directement</strong> le service d&#39;adresses du pays concerné, sans passer par les serveurs de Buildr. Ce service reçoit le <strong>texte saisi</strong> et, comme pour toute connexion à Internet, l&#39;<strong>adresse IP</strong> de votre appareil. Aucune autre donnée (nom, adresse e-mail, contenu des chantiers) ne lui est transmise.</p>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Éditeur</th>
+<th>Pays concerné</th>
+<th>Localisation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>API Géo</strong> et <strong>Base Adresse Nationale</strong></td>
+<td>État français (DINUM, IGN)</td>
+<td>France</td>
+<td>France</td>
+</tr>
+<tr>
+<td><strong>API de recherche swisstopo</strong></td>
+<td>Office fédéral de topographie (Confédération suisse)</td>
+<td>Suisse</td>
+<td>Suisse</td>
+</tr>
+<tr>
+<td><strong>geoportail.lu</strong></td>
+<td>Administration du cadastre et de la topographie (Grand-Duché de Luxembourg)</td>
+<td>Luxembourg</td>
+<td>Luxembourg</td>
+</tr>
+<tr>
+<td><strong>Photon</strong> (données OpenStreetMap)</td>
+<td>komoot GmbH</td>
+<td>Belgique</td>
+<td>Allemagne</td>
+</tr>
+</tbody></table>
+<p>Ces services sont édités par des administrations publiques ou par un tiers indépendant, qui traitent ces requêtes selon leurs propres conditions. Ils ne sont pas des sous-traitants de Buildr au sens de l&#39;article 28 du RGPD. Les suggestions ne sont demandées que lorsque vous saisissez une ville ou une adresse ; vous pouvez aussi la saisir sans choisir de suggestion.</p>
+<h3>7.4 Autorités</h3>
 <p>Vos Données Personnelles peuvent être communiquées aux <strong>autorités administratives et judiciaires françaises et européennes</strong> lorsqu&#39;elles en font la demande conformément à la réglementation en vigueur (par exemple, sur réquisition judiciaire).</p>
-<h3>7.4 Cessionnaires éventuels</h3>
+<h3>7.5 Cessionnaires éventuels</h3>
 <p>En cas de cession, fusion ou acquisition de Buildr, vos Données Personnelles pourront être transmises au cessionnaire, sous réserve qu&#39;il s&#39;engage à respecter la présente Politique. Vous en serez informé(e) par courriel et disposerez d&#39;un droit d&#39;opposition.</p>
 <p>Buildr <strong>ne vend ni ne loue vos Données Personnelles</strong> à des tiers à des fins commerciales ou publicitaires.</p>
 <hr>
@@ -204,7 +241,8 @@ Par courrier : 34 B rue d&#39;Alsace, 88000 Deyvillers</p>
 <p>Certains transferts limités hors Union européenne peuvent toutefois survenir :</p>
 <ul>
 <li><strong>Cloudflare</strong> opère un réseau mondial ; les requêtes peuvent transiter par des points de présence situés hors UE, sans stockage durable hors UE des données applicatives ;</li>
-<li><strong>Apple Push Notification Service</strong> et <strong>Firebase Cloud Messaging</strong> sont des services états-uniens ; les notifications push transitent par les serveurs de ces prestataires.</li>
+<li><strong>Apple Push Notification Service</strong> et <strong>Firebase Cloud Messaging</strong> sont des services états-uniens ; les notifications push transitent par les serveurs de ces prestataires ;</li>
+<li>la recherche d&#39;une adresse <strong>en Suisse</strong> interroge le service fédéral suisse swisstopo (voir 7.3). La Suisse bénéficie d&#39;une <strong>décision d&#39;adéquation</strong> de la Commission européenne (décision 2000/518/CE), qui reconnaît un niveau de protection équivalent à celui de l&#39;Union européenne.</li>
 </ul>
 <p>Ces transferts sont encadrés par les <strong>clauses contractuelles types</strong> adoptées par la Commission européenne (décision (UE) 2021/914) et, lorsque cela est applicable, par les certifications complémentaires (par exemple le <strong>Data Privacy Framework</strong> UE-États-Unis).</p>
 <hr>
@@ -353,4 +391,4 @@ Téléphone : 01 53 73 22 22
 </ul>
 <hr>
 <p><strong>Fin de la Politique de confidentialité.</strong></p>
-<p><em>Version 1.0 — En vigueur au 12 août 2026</em></p>
+<p><em>Version 1.1 — En vigueur au 8 octobre 2026</em></p>
