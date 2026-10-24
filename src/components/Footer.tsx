@@ -55,6 +55,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/aide" className="text-sm text-zinc-600 hover:text-zinc-900">
+                  {t("footer.help")}
+                </Link>
+              </li>
+              <li>
                 <Link href="/support" className="text-sm text-zinc-600 hover:text-zinc-900">
                   {t("footer.support")}
                 </Link>

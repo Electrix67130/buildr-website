@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "build:legal": "node scripts/build-legal.mjs"
+    "build:legal": "node scripts/build-legal.mjs",
+    "build:guides": "node scripts/build-guides.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

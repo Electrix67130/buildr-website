@@ -1,6 +1,7 @@
 "use client";
 
-import { Mail, Clock, MessageCircle } from "lucide-react";
+import Link from "next/link";
+import { Mail, Clock, MessageCircle, BookOpen, ArrowRight } from "lucide-react";
 import { useI18n } from "@/contexts/I18nContext";
 
 // Le contenu visible vit dans un composant client : la page reste un composant
@@ -21,7 +22,19 @@ export default function SupportContent() {
       </h1>
       <p className="mt-4 text-lg text-zinc-600">{t("support.subtitle")}</p>
 
-      <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+      <Link
+        href="/aide"
+        className="mt-12 flex items-center gap-4 rounded-2xl border border-orange-200 bg-orange-50 p-6 transition-colors hover:border-orange-600"
+      >
+        <BookOpen className="shrink-0 text-orange-600" size={24} />
+        <div className="flex-1">
+          <p className="font-semibold text-zinc-900">{t("support.helpCenter")}</p>
+          <p className="text-sm text-zinc-600">{t("support.helpCenterHint")}</p>
+        </div>
+        <ArrowRight className="shrink-0 text-orange-600" size={20} />
+      </Link>
+
+      <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
         <a
           href="mailto:support@getbuildr.fr"
           className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition-colors hover:border-orange-600 hover:bg-orange-50"
