@@ -54,7 +54,7 @@ export default async function GuidePage(props: Props) {
         </p>
 
         <article
-          className="prose prose-zinc mt-10 max-w-none prose-headings:font-semibold prose-h2:mt-10 prose-h2:text-xl prose-a:text-orange-600 hover:prose-a:text-orange-700 prose-blockquote:border-l-orange-600 prose-blockquote:bg-orange-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-zinc-700 prose-li:my-1 prose-img:mx-auto prose-img:w-full prose-img:max-w-xs prose-img:rounded-2xl prose-img:border prose-img:border-zinc-200 prose-img:shadow-sm"
+          className="prose prose-zinc mt-10 max-w-none prose-headings:font-semibold prose-h2:mt-10 prose-h2:text-xl prose-a:text-orange-600 hover:prose-a:text-orange-700 prose-blockquote:border-l-orange-600 prose-blockquote:bg-orange-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic [&_blockquote_p]:before:content-none [&_blockquote_p]:after:content-none prose-blockquote:text-zinc-700 prose-li:my-1 prose-img:mx-auto prose-img:w-full prose-img:max-w-xs prose-img:rounded-2xl prose-img:border prose-img:border-zinc-200 prose-img:shadow-sm"
           dangerouslySetInnerHTML={{ __html: guide.html }}
         />
 
