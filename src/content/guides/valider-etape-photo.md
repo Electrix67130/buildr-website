@@ -13,10 +13,15 @@ Chaque chantier est découpé en étapes, elles-mêmes divisées en sous-étapes
 
 1. Dans l'onglet **Chantiers**, ouvrez le chantier.
 2. Restez sur l'onglet **Étapes**, le premier.
+
+   ![L'onglet Étapes d'un chantier : les étapes validées sont cochées en vert, les autres restent à faire](/aide/valider-etape-photo/01-etapes.jpg)
+
 3. Touchez la **case** à gauche de l'étape ou de la sous-étape terminée.
 4. La fenêtre **Valider l'étape** s'ouvre. Si vous le souhaitez, ajoutez un **commentaire**, par exemple « Fait avec l'équipe d'Ahmed, plomberie OK ».
 5. Sous **Photo (facultatif)**, touchez **Prendre une photo**, ou **Choisir dans la galerie** pour une photo déjà prise. Vous pouvez en ajouter plusieurs.
 6. Touchez **Valider**.
+
+![La fenêtre « Valider l'étape » avec un commentaire et une photo jointe](/aide/valider-etape-photo/02-valider.jpg)
 
 La case devient verte. Le commentaire et les miniatures des photos s'affichent sous l'étape ; touchez une miniature pour l'agrandir.
 

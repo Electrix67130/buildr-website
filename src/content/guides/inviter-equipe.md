@@ -25,6 +25,8 @@ Chaque personne de votre équipe a son propre compte Buildr. Pour l'ajouter, vou
 3. Renseignez l'adresse e-mail, la langue du mail et le rôle.
 4. Touchez **Envoyer l'invitation**.
 
+![La fenêtre « Inviter un collaborateur » dans l'application : e-mail, langue du mail et rôle](/aide/inviter-equipe/01-inviter-app.jpg)
+
 ## Quel rôle choisir ?
 
 | Rôle | Pour qui |

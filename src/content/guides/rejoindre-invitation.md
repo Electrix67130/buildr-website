@@ -24,9 +24,13 @@ Dans l'e-mail, touchez le bouton **Accepter l'invitation**.
 
 Votre adresse e-mail et votre rôle sont fixés par la personne qui vous a invité : vous n'avez pas à les saisir.
 
+![Le formulaire « Rejoindre Buildr Démo » sur un téléphone : e-mail et rôle déjà remplis, prénom, nom, téléphone et mot de passe à saisir](/aide/rejoindre-invitation/01-formulaire.jpg)
+
 ## 3. Installez l'application
 
 Sur un téléphone, un écran **Votre compte est prêt** vous propose de **télécharger l'application**, sur l'App Store ou sur Google Play.
+
+![L'écran « Votre compte est prêt » avec le bouton Télécharger l'application](/aide/rejoindre-invitation/02-compte-pret.jpg)
 
 1. Installez **Buildr Chantiers**.
 2. Ouvrez-la et connectez-vous avec votre adresse e-mail et le mot de passe que vous venez de choisir.

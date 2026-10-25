@@ -43,9 +43,17 @@ Images dans `public/aide/<slug>/`, referencees en Markdown :
   `adb exec-out screencap -p > brut.png`, puis rognage des barres systeme :
   `sips -c 2160 1080 --cropOffset 120 0 brut.png --out net.png`, puis
   reduction a 540 px de large (`sips -Z 1080` sur la hauteur).
+- **App sur iPhone** : captures faites sur le telephone (bouton lateral +
+  volume haut), envoyees par AirDrop dans Telechargements. Recadrer la barre
+  d'etat, la barre Safari et le clavier, puis reduire a 600 px de large en JPEG :
+  `sips -c <h> 1206 --cropOffset <y> 0 in.jpg --out c.jpg && sips --resampleWidth 600 -s format jpeg -s formatOptions 82 c.jpg --out out.jpg`.
+- Theme sombre de l'app : garder le meme theme pour toutes les captures.
 - **Dashboard** : navigateur a 1280 px de large, compte demo.
-- **Page d'invitation** : pas de vraie invitation a envoyer ; le dashboard en
-  local contre une fausse API qui repond a `/invitations/by-token/demo`.
+- **Page d'invitation** : pas de vraie invitation a envoyer. Le dashboard est
+  construit en local contre une fausse API (`NEXT_PUBLIC_API_URL=http://<ip du Mac>:3099`)
+  qui repond a `GET /invitations/by-token/demo`, `POST /auth/register` et
+  `GET /auth/me`, puis ouvert depuis le telephone sur `http://<ip du Mac>:3078/invite/demo`.
+  Le telephone doit etre sur le meme Wi-Fi.
 
 ## Plan (★ = prioritaire, ✓ = publie)
 
