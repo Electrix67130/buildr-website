@@ -39,7 +39,8 @@ function parse(file, raw) {
   return { meta, body: match[2] };
 }
 
-const files = (await fs.readdir(DIR)).filter((f) => f.endsWith(".md")).sort();
+// README.md documente le dossier, ce n'est pas un article.
+const files = (await fs.readdir(DIR)).filter((f) => f.endsWith(".md") && f !== "README.md").sort();
 const guides = [];
 
 for (const file of files) {
