@@ -82,13 +82,13 @@ Images dans `public/aide/<slug>/`, referencees en Markdown :
 ### Sur le chantier, au quotidien (`quotidien`)
 - ★ Suivre les etapes et cocher les sous-etapes
 - ★✓ Valider une etape avec une photo — `valider-etape-photo`
-- ★ Prendre et partager des photos
+- ★✓ Prendre et partager des photos — `prendre-partager-photos`
 - Ajouter et consulter des documents (plans, DICT, arretes)
-- ★ Discuter avec l'equipe : repondre, reagir, mentionner avec @
+- ★✓ Discuter avec l'equipe : repondre, reagir, mentionner avec @ — `discuter-equipe`
 - Utiliser l'app sans reseau
 
 ### Urgences (`urgences`)
-- ★ Signaler une urgence avec des photos
+- ★✓ Signaler une urgence avec des photos — `signaler-urgence`
 - Suivre et cloturer une urgence
 
 ### Notifications et agenda (`notifications`)
