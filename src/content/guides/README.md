@@ -83,7 +83,7 @@ Images dans `public/aide/<slug>/`, referencees en Markdown :
 - ★ Suivre les etapes et cocher les sous-etapes
 - ★✓ Valider une etape avec une photo — `valider-etape-photo`
 - ★✓ Prendre et partager des photos — `prendre-partager-photos`
-- Ajouter et consulter des documents (plans, DICT, arretes)
+- Ajouter et consulter des documents (plans, DICT, arretes), dont le type « Autre » avec son nom libre (« Nom du type (facultatif) »)
 - ★✓ Discuter avec l'equipe : repondre, reagir, mentionner avec @ — `discuter-equipe`
 - Utiliser l'app sans reseau
 

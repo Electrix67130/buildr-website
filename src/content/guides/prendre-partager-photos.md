@@ -35,5 +35,6 @@ Touchez la petite corbeille en haut de la miniature, ou ouvrez la photo et touch
 >
 > - Sans réseau, la photo est gardée sur le téléphone et part toute seule dès que la connexion revient. En attendant, elle apparaît sous **À envoyer**.
 > - Une photo choisie dans la galerie garde l'heure à laquelle elle a été prise, pas celle de l'envoi.
-> - Pour ajouter ou supprimer des photos, il faut le droit **Modifier le chantier**. Sans ce droit, ou sur un chantier archivé, vous pouvez seulement les regarder et les partager.
+> - Pour ajouter ou supprimer des photos dans l'onglet **Photos**, il faut le droit **Modifier le chantier**. Sans ce droit, ou sur un chantier archivé, vous pouvez seulement les regarder et les partager.
+> - Les photos jointes en validant une étape ne demandent pas ce droit : elles suivent ceux de l'onglet **Étapes** (voir [Comment valider une étape avec une photo ?](/aide/valider-etape-photo)).
 > - Une photo d'un collègue vous semble déplacée ? Ouvrez-la et touchez **Signaler** : l'administrateur de votre entreprise est prévenu, jamais la personne concernée.

@@ -34,4 +34,6 @@ Vous avez coché la mauvaise étape ? Touchez à nouveau la case verte : l'étap
 > - Le commentaire et la photo sont facultatifs : vous pouvez valider une étape directement avec **Valider**.
 > - Une photo prise depuis la galerie garde le lieu et l'heure où elle a été prise.
 > - Les clients ne peuvent pas valider d'étape.
+> - Joindre une photo à une étape ne demande pas le droit **Modifier le chantier** : qui peut valider l'étape peut y joindre sa photo.
 > - Pour retirer une photo avant de valider, touchez sa croix dans la fenêtre de validation.
+> - Après avoir touché **Valider**, le bouton affiche **Validation…** le temps de l'envoi : la fenêtre ne peut pas être fermée tant que les photos ne sont pas parties. Si le serveur ne répond pas au bout de 20 secondes, un message vous prévient et la fenêtre se débloque pour réessayer.
