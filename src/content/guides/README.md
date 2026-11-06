@@ -75,6 +75,7 @@ Images dans `public/aide/<slug>/`, referencees en Markdown :
 ### Chantiers (`chantiers`)
 - ★ Creer un chantier (adresse, dates, equipe)
 - Partir d'un modele, creer vos modeles
+- Ajouter des etapes a un chantier, dont une etape type de la **Bibliotheque** (bouton sous la liste des etapes, app et dashboard ; etapes types publiees par Buildr dans la langue de l'utilisateur, copiees puis modifiables)
 - Retrouver un chantier : recherche, filtres, carte
 - Modifier un chantier, obtenir l'itineraire
 - Archiver et restaurer un chantier
